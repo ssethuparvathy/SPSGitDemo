@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="8" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T07:21:55Z" name="Suite" finished-at="2022-03-29T07:21:55Z" duration-ms="161">
+    <groups>
+      <group name="Smoke">
+        <method signature="BusinesslogiconeTest.testMethod1(java.lang.String, java.lang.String)[pri:0, instance:sethulearning.mavensetup.BusinesslogiconeTest@4e31276e]" name="testMethod1" class="sethulearning.mavensetup.BusinesslogiconeTest"/>
+        <method signature="BusinesslogictwoTest.testMethod3()[pri:0, instance:sethulearning.mavensetup.BusinesslogictwoTest@5117dd67]" name="testMethod3" class="sethulearning.mavensetup.BusinesslogictwoTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-03-29T07:21:55Z" name="Test" finished-at="2022-03-29T07:21:55Z" duration-ms="94">
+      <class name="sethulearning.mavensetup.BusinesslogiconeTest">
+        <test-method signature="testMethod2()[pri:0, instance:sethulearning.mavensetup.BusinesslogiconeTest@4e31276e]" started-at="2022-03-29T12:51:55Z" name="testMethod2" finished-at="2022-03-29T12:51:55Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:sethulearning.mavensetup.BusinesslogiconeTest@4e31276e]" started-at="2022-03-29T12:51:55Z" name="testMethod1" data-provider="getData" finished-at="2022-03-29T12:51:55Z" depends-on-methods="sethulearning.mavensetup.BusinesslogiconeTest.testMethod2" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[u1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:sethulearning.mavensetup.BusinesslogiconeTest@4e31276e]" started-at="2022-03-29T12:51:55Z" name="testMethod1" data-provider="getData" finished-at="2022-03-29T12:51:55Z" depends-on-methods="sethulearning.mavensetup.BusinesslogiconeTest.testMethod2" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:sethulearning.mavensetup.BusinesslogiconeTest@4e31276e]" started-at="2022-03-29T12:51:55Z" name="testMethod1" data-provider="getData" finished-at="2022-03-29T12:51:55Z" depends-on-methods="sethulearning.mavensetup.BusinesslogiconeTest.testMethod2" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- sethulearning.mavensetup.BusinesslogiconeTest -->
+      <class name="sethulearning.mavensetup.BusinesslogictwoTest">
+        <test-method signature="testMethod3()[pri:0, instance:sethulearning.mavensetup.BusinesslogictwoTest@5117dd67]" started-at="2022-03-29T12:51:55Z" name="testMethod3" finished-at="2022-03-29T12:51:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+      </class> <!-- sethulearning.mavensetup.BusinesslogictwoTest -->
+    </test> <!-- Test -->
+    <test started-at="2022-03-29T07:21:55Z" name="Test1" finished-at="2022-03-29T07:21:55Z" duration-ms="18">
+      <class name="sethulearning.mavensetup.BusinesslogicfourTest">
+        <test-method signature="testMethod7()[pri:0, instance:sethulearning.mavensetup.BusinesslogicfourTest@418c5a9c]" started-at="2022-03-29T12:51:55Z" name="testMethod7" finished-at="2022-03-29T12:51:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod7 -->
+        <test-method signature="testMethod8()[pri:0, instance:sethulearning.mavensetup.BusinesslogicfourTest@418c5a9c]" started-at="2022-03-29T12:51:55Z" name="testMethod8" finished-at="2022-03-29T12:51:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod8 -->
+      </class> <!-- sethulearning.mavensetup.BusinesslogicfourTest -->
+      <class name="sethulearning.mavensetup.BusinesslogicthreeTest">
+        <test-method signature="testMethod5(java.lang.String)[pri:0, instance:sethulearning.mavensetup.BusinesslogicthreeTest@5a5338df]" started-at="2022-03-29T12:51:55Z" name="testMethod5" finished-at="2022-03-29T12:51:55Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method testMethod5 but has not been marked @Optional or defined
+in C:\Users\sseth\MavenProject1\mavensetup\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method testMethod5 but has not been marked @Optional or defined
+in C:\Users\sseth\MavenProject1\mavensetup\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method signature="testMethod6()[pri:0, instance:sethulearning.mavensetup.BusinesslogicthreeTest@5a5338df]" started-at="2022-03-29T12:51:55Z" name="testMethod6" finished-at="2022-03-29T12:51:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+      </class> <!-- sethulearning.mavensetup.BusinesslogicthreeTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://dev.joann.com"/>
+  <listeners>
+    <listener class-name="sethulearning.mavensetup.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <parameter name="url" value="https://dev.joann.com"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="sethulearning.mavensetup.BusinesslogiconeTest"/>
+      <class name="sethulearning.mavensetup.BusinesslogictwoTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="sethulearning.mavensetup.BusinesslogicthreeTest"/>
+      <class name="sethulearning.mavensetup.BusinesslogicfourTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test parallel="none" name="Test1(failed)">
+    <classes>
+      <class name="sethulearning.mavensetup.BusinesslogicthreeTest">
+        <methods>
+          <include name="testMethod5"/>
+        </methods>
+      </class> <!-- sethulearning.mavensetup.BusinesslogicthreeTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
