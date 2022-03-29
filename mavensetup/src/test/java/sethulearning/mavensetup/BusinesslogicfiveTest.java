@@ -11,6 +11,8 @@ public class BusinesslogicfiveTest {
 	public void testMethod9()
 	{
 		System.out.println("Test Method nine logic executed");
+		System.out.println("Gitchange1");
+		System.out.println("Gitchange2");
 	}
 	
 	@Test

@@ -7,11 +7,6 @@
   </listeners>
   <test thread-count="5" name="Test">
     <parameter name="url" value="https://dev.joann.com"/>
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
     <classes>
       <class name="sethulearning.mavensetup.BusinesslogiconeTest"/>
       <class name="sethulearning.mavensetup.BusinesslogictwoTest"/>
@@ -23,13 +18,4 @@
       <class name="sethulearning.mavensetup.BusinesslogicfourTest"/>
     </classes>
   </test> <!-- Test1 -->
-  <test parallel="none" name="Test1(failed)">
-    <classes>
-      <class name="sethulearning.mavensetup.BusinesslogicthreeTest">
-        <methods>
-          <include name="testMethod5"/>
-        </methods>
-      </class> <!-- sethulearning.mavensetup.BusinesslogicthreeTest -->
-    </classes>
-  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
